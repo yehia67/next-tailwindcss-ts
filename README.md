@@ -25,13 +25,13 @@ cd <your-project-name>
 ### 2. Install Dependencies
 
 ```bash
-pnpm install # npm i
+yarn
 ```
 
 ### 3. Run Development Environment
 
 ```bash
-pnpm dev # npm run dev
+yarn dev # npm run dev
 ```
 
 ### Test Production Environment
@@ -39,12 +39,12 @@ pnpm dev # npm run dev
 I also included a `stage` script that will build and start a production server. You can run it with:
 
 ```bash
-pnpm stage # npm run stage
+yarn stage # npm run stage
 ```
 
 Alternatively you can run:
 
 ```bash
-pnpm build # npm run build
-pnpm start # npm start
+yarn build # npm run build
+yarn start # npm start
 ```
