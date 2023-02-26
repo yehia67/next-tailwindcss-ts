@@ -6,7 +6,8 @@
     "build": "next build",
     "start": "next start",
     "stage": "yarn build; yarn start",
-    "type-check": "tsc"
+    "check:types": "tsc",
+    "check:lint": "eslint . --ext .js,.jsx,.ts,.tsx --fix"
   },
   "dependencies": {
     "next": "^13.2.1",
