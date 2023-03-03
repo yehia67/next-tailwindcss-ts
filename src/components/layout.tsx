@@ -1,5 +1,5 @@
-import React from 'react';
-import Head from 'next/head';
+import React from "react";
+import Head from "next/head";
 
 type LayoutProps = {
   children: React.ReactNode;
@@ -8,7 +8,7 @@ type LayoutProps = {
 
 export default function Layout({
   children,
-  title = 'This is the default title',
+  title = "This is the default title",
 }: LayoutProps) {
   return (
     <div>
